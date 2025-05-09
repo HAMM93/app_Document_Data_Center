@@ -1,0 +1,25 @@
+# Node modules (cliente y servidor)
+apps/client/app_document_dc/node_modules/
+apps/server/node_modules/
+
+# Archivos de producción/caché
+apps/client/app_document_dc/dist/
+apps/client/app_document_dc/.vite/
+
+# Archivos del entorno (variables sensibles)
+apps/server/.env
+apps/client/app_document_dc/.env
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de lock opcionales (si quieres evitar subirlos, opcional)
+# apps/client/app_document_dc/package-lock.json
+# apps/server/package-lock.json
+
+# VSCODE configs (opcional, si hay carpetas .vscode)
+.vscode/
